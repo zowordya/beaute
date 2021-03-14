@@ -46,6 +46,15 @@ body {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.logo_image {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-image: url(./img/slogo.png);
 }
 
 .header-info span {
@@ -75,4 +84,32 @@ hr {
     border: none;
     background: #EFEFEF;
     height: 1px;
+}
+
+.banner {
+    background-image: url(./img/table.png);
+    background-repeat: no-repeat;
+    padding: 100px 0 100px 0;
+    background-size: cover;
+    background-position: center center;
+    color: #FFF;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.banner p {
+    margin-bottom: 50px;
+    max-width: 315px;
+}
+
+.btn {
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 20px;
+    border: solid 2px #ffffff;
+    background: transparent;
+    padding: 10px 25px;
 }
